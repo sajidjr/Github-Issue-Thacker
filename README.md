@@ -66,4 +66,13 @@ const result = numbers.filter(n => n > 2);
 console.log(result);
 // [3,4]
 
+* forEach()....
+const numbers = [1, 2, 3];
+
+numbers.forEach(n => {
+  console.log(n);
+});
+
+4. What is an arrow function?....
+
 
