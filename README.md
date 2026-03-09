@@ -74,5 +74,10 @@ numbers.forEach(n => {
 });
 
 4. What is an arrow function?....
+Answer :
+An arrow function is a shorter way to write a function in JavaScript..
+const add = (a, b) => {
+  return a + b;
+};
 
 
