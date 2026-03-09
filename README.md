@@ -80,4 +80,16 @@ const add = (a, b) => {
   return a + b;
 };
 
+5. What are Template Literals?.....
+Answer :
+Template literals allow you to insert variables inside strings.They use backticks ( `` ) instead of quotes.
+
+const name = "Sajid";
+const age = 20;
+
+const text = `My name is ${name} and I am ${age} years old`;
+
+console.log(text);
+
+
 
