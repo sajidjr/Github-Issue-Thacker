@@ -48,7 +48,8 @@ filter() :
 Creates a new array with elements that match a condition..
 forEach() :
 Loops through the array but does not return anything..
-Example : map()
+Example : 
+* map()......
 
 const numbers = [1, 2, 3];
 
@@ -56,3 +57,13 @@ const result = numbers.map(n => n * 2);
 
 console.log(result);
 // [2,4,6]
+
+* filter()...
+const numbers = [1, 2, 3, 4];
+
+const result = numbers.filter(n => n > 2);
+
+console.log(result);
+// [3,4]
+
+
