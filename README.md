@@ -47,4 +47,12 @@ Creates a new array by transforming each ...
 filter() :
 Creates a new array with elements that match a condition..
 forEach() :
-Loops through the array but does not return anything
+Loops through the array but does not return anything..
+Example : map()
+
+const numbers = [1, 2, 3];
+
+const result = numbers.map(n => n * 2);
+
+console.log(result);
+// [2,4,6]
