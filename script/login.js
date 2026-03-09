@@ -11,7 +11,7 @@ document.getElementById('login-btn').addEventListener('click', function(e){
         alert("Login Success");
 
         // redirect to index.html
-        window.location.href = "./index.html";
+        window.location.href = "./home.html";
     } else {
         alert("Login Failed");
     }
